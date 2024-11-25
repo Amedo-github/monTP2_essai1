@@ -1,0 +1,143 @@
+/*annulation parametres par defaut des navigateurs*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*style de global en colonne*/
+#global {
+  background-color: rgb(247, 226, 207);
+  width: 90%; /*a donner*/
+  margin: 10px auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+/*style de conteneur en rangée*/
+#conteneur {
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+/*navigation*/
+nav {
+  background-color: #ed9d4d;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/*lien en gras*/
+nav a {
+  color: rgb(72, 42, 10);
+  font-weight: bold;
+}
+/*bordure logo*/
+nav img {
+  border: 4px solid rgb(151, 70, 9);
+}
+/*style de conteneur1 en colonne*/
+#conteneur1 {
+  background-color: rgb(244, 174, 133);
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*style de conteneur2 en colonne*/
+#conteneur2 {
+  background-color: #f1cea1;
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/*style colonne de droite*/
+#conteneur3 {
+  background-color: rgb(244, 174, 133);
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*style de cont-tours-bus en colonne*/
+#cont-tours-bus {
+  background-color: rgb(255, 183, 0);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*style de cont-tours-avion en colonne*/
+#cont-tours-avion {
+  background-color: rgb(247, 204, 106);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*style de cont-tours en rangée*/
+#cont-tours {
+  background-color: rgb(215, 164, 97);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+p {
+  width: 80%;
+  text-indent: 50px;
+  position: relative;
+  top: -50px;
+}
+h2 {
+  color: #5f2a0d;
+  position: relative;
+  font-size: 4rem;
+  top: -200px;
+}
+h1 {
+  color: #5f2a0d;
+  font-size: 2rem;
+}
+/*taille image*/
+#conteneur img {
+  width: 100%;
+}
+
+footer {
+  background-color: #c9812f;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*taille image du footer*/
+footer img {
+  margin: 5px 10px;
+}
+/*style des icones*/
+ion-icon {
+  color: #853206;
+  font-size: 80px;
+}
